@@ -1,8 +1,14 @@
 {
   "name": "expo-ecommerce",
+  "private": true,
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "workspaces": [
+    "backend",
+    "admin",
+    "mobile"
+  ],
   "engines": {
     "node": "20"
   },
